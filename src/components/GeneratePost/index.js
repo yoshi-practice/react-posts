@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class AddPost extends Component {
+class GeneratePost extends Component {
   constructor() {
     super();
 
@@ -34,7 +34,7 @@ class AddPost extends Component {
 
   render() {
     return (
-      <div className="AddPost">
+      <div className="GeneratePost">
         <input 
           type="text" 
           placeholder="Write the title of your post" 
@@ -52,4 +52,4 @@ class AddPost extends Component {
   }
 }
 
-export default AddPost;
+export default GeneratePost;

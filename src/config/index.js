@@ -7,7 +7,6 @@ class App extends Component {
   constructor() {
     super();
 
-    // Initialize Firebase
     firebase.initializeApp(config);
   }
 
