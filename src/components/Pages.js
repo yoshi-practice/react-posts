@@ -1,5 +1,5 @@
-import GeneratePost from './GeneratePost/index';
-import Posts from './Posts/index';
+import GeneratePost from './Generate';
+import Posts from './Post';
 import React, { Component } from 'react';
 
 class Pages extends Component {
